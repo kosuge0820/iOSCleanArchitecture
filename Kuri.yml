@@ -1,0 +1,9 @@
+TemplateRootPath: ./
+DefaultTemplateDirectoryName: KuriTemplate
+ProjectRootPath: ./
+ProjectFileName: iOSCleanArchitecture.xcodeproj
+GenerateRootPath: ./iOSCleanArchitecture/
+Target: iOSCleanArchitecture
+
+View:
+ CustomSuffix: ViewController

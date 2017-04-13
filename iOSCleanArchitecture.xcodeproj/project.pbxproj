@@ -516,6 +516,7 @@
 				380BBE801E9FF0AC006AE13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		380BBE811E9FF0AC006AE13A /* Build configuration list for PBXNativeTarget "iOSCleanArchitectureTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				380BBE831E9FF0AC006AE13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		380BBE841E9FF0AC006AE13A /* Build configuration list for PBXNativeTarget "iOSCleanArchitectureUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				380BBE861E9FF0AC006AE13A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
