@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1X5LDMX26XSGHPTR0J0BGKP6 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AAKOMQHKCJYQ6AVS30JJZE /* LoginModel.swift */; };
 		380BBE5A1E9FF0AC006AE13A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BBE591E9FF0AC006AE13A /* AppDelegate.swift */; };
-		380BBE5C1E9FF0AC006AE13A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BBE5B1E9FF0AC006AE13A /* ViewController.swift */; };
 		380BBE5F1E9FF0AC006AE13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380BBE5D1E9FF0AC006AE13A /* Main.storyboard */; };
 		380BBE611E9FF0AC006AE13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380BBE601E9FF0AC006AE13A /* Assets.xcassets */; };
 		380BBE641E9FF0AC006AE13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380BBE621E9FF0AC006AE13A /* LaunchScreen.storyboard */; };
 		380BBE6F1E9FF0AC006AE13A /* iOSCleanArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BBE6E1E9FF0AC006AE13A /* iOSCleanArchitectureTests.swift */; };
 		380BBE7A1E9FF0AC006AE13A /* iOSCleanArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380BBE791E9FF0AC006AE13A /* iOSCleanArchitectureUITests.swift */; };
+		3OJRSBD7I4TSKK23YESUP8W1 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3KL0WB9OWTYNUQ0BPVA1UKEI /* LoginUseCase.swift */; };
+		66G5ZHF8P7ZC1XCC2HF75UY0 /* LoginTranslatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AHA3IR3BJ043V612X9HCQIDG /* LoginTranslatorImpl.swift */; };
+		6BDWOBZ1L37YDSOOGHITH0QA /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = J0GU0EBZGHEF9D7YWSYFOWJJ /* LoginBuilder.swift */; };
+		99UGS0UOB5TLGZ6E77UTBXD5 /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = Q12NA4KCVKUFNX2T8HY52M7Q /* LoginEntity.swift */; };
+		BYZISV94U9KDCCLEFGNB8HK1 /* LoginRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = I0FTTY15XT6G4Y6Y6U42UMK4 /* LoginRepositoryImpl.swift */; };
+		E49WDLUII4B3NIZ11B1X8CNU /* LoginWireframeImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6X6E11UHPKDK6R4WSIH3PWHC /* LoginWireframeImpl.swift */; };
+		FHXEO5DCHH6OGGY4BRT5OLXS /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2TI2PLTY4MH4DHT9NPQ053ZG /* LoginPresenter.swift */; };
+		H9R1RL7T6X9J4K5975H9G668 /* LoginDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6MSAXZL6YOA4I7QJ9TK04502 /* LoginDataStore.swift */; };
+		ICS8P8WWJKHFYM1I83M2JW27 /* LoginViewControllerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FYRZYIYSV2JXJJMUV9CZBZ74 /* LoginViewControllerImpl.swift */; };
+		JABD83R9I2TMFAAI08FBEE1S /* LoginDataStoreImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7XKP8WBODG620JJXXBKTUF /* LoginDataStoreImpl.swift */; };
+		MB795HGJU7O8DFM3RZU4LHCB /* LoginPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FPPB5XT13OOG9E16P9BNXPO7 /* LoginPresenterImpl.swift */; };
+		N4VZQKMRLM4RHX9EUYPSF6CN /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044KCXVEKK4SEZT80MFTJ7DZ /* LoginRepository.swift */; };
+		PKQTT7A4KMYXRJ4QWJ2F0I7L /* LoginEntityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = WC960HFW3FHDT11MSCDGKWMR /* LoginEntityImpl.swift */; };
+		QQ5YONOHTJ3JU2J16ZUQRJTG /* LoginUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = LA806RC3Y6OMTQT7I4OTPSUJ /* LoginUseCaseImpl.swift */; };
+		UWFSUMBA4Y17G0B0W457Q1M6 /* LoginTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CV8MC5FMMBFL4QG8P4V9LLYS /* LoginTranslator.swift */; };
+		VU5YZHDFHUZYSCMYV332N455 /* LoginBuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6MG501TPDVT6VHZHLJC5QP5 /* LoginBuilderImpl.swift */; };
+		W3N5CGCKNG1VCPP8RYA0LIPU /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26GH03HCFFSMEGYFI2BL5TP /* LoginViewController.swift */; };
+		XJEOBILE21KY71940W7NLCY4 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OVT8XVBIHVYV7I6A0Z6TWLJU /* LoginWireframe.swift */; };
+		XM4UMYPIQ1YC4BBM9I1GOTDX /* LoginModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = OFEHPLHHWQUQ1RWMZTW7S0JL /* LoginModelImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044KCXVEKK4SEZT80MFTJ7DZ /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		2TI2PLTY4MH4DHT9NPQ053ZG /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		380BBE561E9FF0AC006AE13A /* iOSCleanArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCleanArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		380BBE591E9FF0AC006AE13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		380BBE5B1E9FF0AC006AE13A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		380BBE5E1E9FF0AC006AE13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		380BBE601E9FF0AC006AE13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		380BBE631E9FF0AC006AE13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,24 @@
 		380BBE751E9FF0AC006AE13A /* iOSCleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCleanArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		380BBE791E9FF0AC006AE13A /* iOSCleanArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCleanArchitectureUITests.swift; sourceTree = "<group>"; };
 		380BBE7B1E9FF0AC006AE13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3KL0WB9OWTYNUQ0BPVA1UKEI /* LoginUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		6B7XKP8WBODG620JJXXBKTUF /* LoginDataStoreImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataStoreImpl.swift; sourceTree = "<group>"; };
+		6MSAXZL6YOA4I7QJ9TK04502 /* LoginDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataStore.swift; sourceTree = "<group>"; };
+		6X6E11UHPKDK6R4WSIH3PWHC /* LoginWireframeImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWireframeImpl.swift; sourceTree = "<group>"; };
+		AHA3IR3BJ043V612X9HCQIDG /* LoginTranslatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTranslatorImpl.swift; sourceTree = "<group>"; };
+		B6MG501TPDVT6VHZHLJC5QP5 /* LoginBuilderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBuilderImpl.swift; sourceTree = "<group>"; };
+		C5AAKOMQHKCJYQ6AVS30JJZE /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		CV8MC5FMMBFL4QG8P4V9LLYS /* LoginTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTranslator.swift; sourceTree = "<group>"; };
+		E26GH03HCFFSMEGYFI2BL5TP /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FPPB5XT13OOG9E16P9BNXPO7 /* LoginPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenterImpl.swift; sourceTree = "<group>"; };
+		FYRZYIYSV2JXJJMUV9CZBZ74 /* LoginViewControllerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerImpl.swift; sourceTree = "<group>"; };
+		I0FTTY15XT6G4Y6Y6U42UMK4 /* LoginRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepositoryImpl.swift; sourceTree = "<group>"; };
+		J0GU0EBZGHEF9D7YWSYFOWJJ /* LoginBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		LA806RC3Y6OMTQT7I4OTPSUJ /* LoginUseCaseImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUseCaseImpl.swift; sourceTree = "<group>"; };
+		OFEHPLHHWQUQ1RWMZTW7S0JL /* LoginModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModelImpl.swift; sourceTree = "<group>"; };
+		OVT8XVBIHVYV7I6A0Z6TWLJU /* LoginWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		Q12NA4KCVKUFNX2T8HY52M7Q /* LoginEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginEntity.swift; sourceTree = "<group>"; };
+		WC960HFW3FHDT11MSCDGKWMR /* LoginEntityImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginEntityImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +135,8 @@
 		380BBE581E9FF0AC006AE13A /* iOSCleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				380BBE591E9FF0AC006AE13A /* AppDelegate.swift */,
-				380BBE5B1E9FF0AC006AE13A /* ViewController.swift */,
-				380BBE5D1E9FF0AC006AE13A /* Main.storyboard */,
-				380BBE601E9FF0AC006AE13A /* Assets.xcassets */,
-				380BBE621E9FF0AC006AE13A /* LaunchScreen.storyboard */,
-				380BBE651E9FF0AC006AE13A /* Info.plist */,
+				380BBE881E9FF605006AE13A /* Sources */,
+				380BBE871E9FF5FE006AE13A /* Resources */,
 			);
 			path = iOSCleanArchitecture;
 			sourceTree = "<group>";
@@ -123,6 +157,133 @@
 				380BBE7B1E9FF0AC006AE13A /* Info.plist */,
 			);
 			path = iOSCleanArchitectureUITests;
+			sourceTree = "<group>";
+		};
+		380BBE871E9FF5FE006AE13A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				380BBE5D1E9FF0AC006AE13A /* Main.storyboard */,
+				380BBE601E9FF0AC006AE13A /* Assets.xcassets */,
+				380BBE621E9FF0AC006AE13A /* LaunchScreen.storyboard */,
+				380BBE651E9FF0AC006AE13A /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		380BBE881E9FF605006AE13A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				380BBE591E9FF0AC006AE13A /* AppDelegate.swift */,
+				ZXCYVWKW6LRU9LH5KCXDQ54V /* Login */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		8OXOQEALJGP23DNYC3IYSA5W /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				044KCXVEKK4SEZT80MFTJ7DZ /* LoginRepository.swift */,
+				I0FTTY15XT6G4Y6Y6U42UMK4 /* LoginRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B7WKXZRLDDGVBFHSUGE6VJTV /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2TI2PLTY4MH4DHT9NPQ053ZG /* LoginPresenter.swift */,
+				FPPB5XT13OOG9E16P9BNXPO7 /* LoginPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D8FXGEP6KSYCB2OQEI6L4C8E /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				3KL0WB9OWTYNUQ0BPVA1UKEI /* LoginUseCase.swift */,
+				LA806RC3Y6OMTQT7I4OTPSUJ /* LoginUseCaseImpl.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		IUXP9I2C8KAHTHFU8H2CQIT8 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				J0GU0EBZGHEF9D7YWSYFOWJJ /* LoginBuilder.swift */,
+				B6MG501TPDVT6VHZHLJC5QP5 /* LoginBuilderImpl.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		KGLCKQMMMMYB5AV39AP7SPJO /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				CV8MC5FMMBFL4QG8P4V9LLYS /* LoginTranslator.swift */,
+				AHA3IR3BJ043V612X9HCQIDG /* LoginTranslatorImpl.swift */,
+			);
+			path = Translator;
+			sourceTree = "<group>";
+		};
+		OFOPRCZCK2WI5OSM3L3S70DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5AAKOMQHKCJYQ6AVS30JJZE /* LoginModel.swift */,
+				OFEHPLHHWQUQ1RWMZTW7S0JL /* LoginModelImpl.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		P2JPPP2G1Q486ZU23SG51PAP /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				OVT8XVBIHVYV7I6A0Z6TWLJU /* LoginWireframe.swift */,
+				6X6E11UHPKDK6R4WSIH3PWHC /* LoginWireframeImpl.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		S4QGZ8QTYTCGSX507S0RWD7F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				Q12NA4KCVKUFNX2T8HY52M7Q /* LoginEntity.swift */,
+				WC960HFW3FHDT11MSCDGKWMR /* LoginEntityImpl.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		UK8ES9J57MMS260V66WPDK6S /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E26GH03HCFFSMEGYFI2BL5TP /* LoginViewController.swift */,
+				FYRZYIYSV2JXJJMUV9CZBZ74 /* LoginViewControllerImpl.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		WKFNVPWDGCQSNRN6FZIJPTT2 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				6MSAXZL6YOA4I7QJ9TK04502 /* LoginDataStore.swift */,
+				6B7XKP8WBODG620JJXXBKTUF /* LoginDataStoreImpl.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		ZXCYVWKW6LRU9LH5KCXDQ54V /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				S4QGZ8QTYTCGSX507S0RWD7F /* Entity */,
+				WKFNVPWDGCQSNRN6FZIJPTT2 /* DataStore */,
+				8OXOQEALJGP23DNYC3IYSA5W /* Repository */,
+				D8FXGEP6KSYCB2OQEI6L4C8E /* UseCase */,
+				KGLCKQMMMMYB5AV39AP7SPJO /* Translator */,
+				OFOPRCZCK2WI5OSM3L3S70DD /* Model */,
+				B7WKXZRLDDGVBFHSUGE6VJTV /* Presenter */,
+				UK8ES9J57MMS260V66WPDK6S /* View */,
+				P2JPPP2G1Q486ZU23SG51PAP /* Wireframe */,
+				IUXP9I2C8KAHTHFU8H2CQIT8 /* Builder */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +423,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				380BBE5C1E9FF0AC006AE13A /* ViewController.swift in Sources */,
 				380BBE5A1E9FF0AC006AE13A /* AppDelegate.swift in Sources */,
+				99UGS0UOB5TLGZ6E77UTBXD5 /* LoginEntity.swift in Sources */,
+				PKQTT7A4KMYXRJ4QWJ2F0I7L /* LoginEntityImpl.swift in Sources */,
+				H9R1RL7T6X9J4K5975H9G668 /* LoginDataStore.swift in Sources */,
+				JABD83R9I2TMFAAI08FBEE1S /* LoginDataStoreImpl.swift in Sources */,
+				N4VZQKMRLM4RHX9EUYPSF6CN /* LoginRepository.swift in Sources */,
+				BYZISV94U9KDCCLEFGNB8HK1 /* LoginRepositoryImpl.swift in Sources */,
+				3OJRSBD7I4TSKK23YESUP8W1 /* LoginUseCase.swift in Sources */,
+				QQ5YONOHTJ3JU2J16ZUQRJTG /* LoginUseCaseImpl.swift in Sources */,
+				UWFSUMBA4Y17G0B0W457Q1M6 /* LoginTranslator.swift in Sources */,
+				66G5ZHF8P7ZC1XCC2HF75UY0 /* LoginTranslatorImpl.swift in Sources */,
+				1X5LDMX26XSGHPTR0J0BGKP6 /* LoginModel.swift in Sources */,
+				XM4UMYPIQ1YC4BBM9I1GOTDX /* LoginModelImpl.swift in Sources */,
+				FHXEO5DCHH6OGGY4BRT5OLXS /* LoginPresenter.swift in Sources */,
+				MB795HGJU7O8DFM3RZU4LHCB /* LoginPresenterImpl.swift in Sources */,
+				W3N5CGCKNG1VCPP8RYA0LIPU /* LoginViewController.swift in Sources */,
+				ICS8P8WWJKHFYM1I83M2JW27 /* LoginViewControllerImpl.swift in Sources */,
+				XJEOBILE21KY71940W7NLCY4 /* LoginWireframe.swift in Sources */,
+				E49WDLUII4B3NIZ11B1X8CNU /* LoginWireframeImpl.swift in Sources */,
+				6BDWOBZ1L37YDSOOGHITH0QA /* LoginBuilder.swift in Sources */,
+				VU5YZHDFHUZYSCMYV332N455 /* LoginBuilderImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
